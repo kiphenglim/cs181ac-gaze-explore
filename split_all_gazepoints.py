@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 
+'''
+Reads the 150MB+ file named 'all_gazepoints_max_invalid_per_subject10%.txt'
+and splits the gazepoint data into individual CSVs (based on which film the
+gazepoints data is associated with) named 'film_gazepoints.csv'.
+'''
+
 import pandas as pd
 
 def read_txt_into_df():
@@ -47,10 +53,10 @@ def write_gaze_to_film_file(df, list_of_movies):
     single_movie_gazepoints.to_csv(movie_filename)
 
 def main():
-  """
+  '''
   Reads the 150MB+ file named 'all_gazepoints_max_invalid_per_subject10%.txt'
   and splits the gazepoints data into different files for each film.
-  """
+  '''
   all_gazepoints = read_txt_into_df()
   movie_names = find_movie_names(all_gazepoints)
   write_gaze_to_film_file(all_gazepoints, movie_names)
