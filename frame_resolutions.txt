@@ -1,0 +1,16 @@
+//Film width height
+amadeus 854 370
+argo 854 360
+birdman 854 460
+chicago 844 462
+departed 854 358
+kings 854 478
+emperor 854 430
+no_country_clip1 848 364
+no_country_clip2 848 364
+saving 848 480
+slumdog 850 368
+shakespeare_clip1 846 370
+shakespeare_clip2 846 370
+unforgiven 854 370
+gladiator 848 368
