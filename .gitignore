@@ -1,2 +1,9 @@
+# large filetypes
+*.mp4
 *.zip
+
+# large files
 all_gazepoints_max_invalid_per_subject10%.txt
+
+# ipynb files
+.ipynb_checkpoints
