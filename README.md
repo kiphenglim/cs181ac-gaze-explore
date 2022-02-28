@@ -12,8 +12,8 @@ plots of individual subjects' gaze locations over the period of a clip. Finally,
 important for answering questions about the dataset.
 
 ## Visualisations
-The generated visualisations will appear in the `lineplots` and `scatterplots` folders.
-Histograms are generated only by running the `format handcodings.ipynb` file.
+The generated visualisations will appear in the `lineplots`, `scatterplots`, `histograms`, and
+`histograms2` folders.
 
 # Contributors
 Kip Lim <`klim@g.hmc.edu`>
